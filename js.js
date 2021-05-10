@@ -12,7 +12,7 @@ var msg = 'Multiplication Table';              // Message
 //} else {
   // Do multiplication
   while (i < 11) {
-    msg += '<br />' + i + ' x ' + table + ' = ' + (i * table) + '<br />';
+    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
     i++;
   }
 //}
